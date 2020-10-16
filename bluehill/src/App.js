@@ -1,26 +1,25 @@
 import React from 'react';
 import About from './components/About';
 
-const items = {
+const info = [
   {
     title: "Our Story",
     content: "lorem ipsum"
   },
   {
-    title: "Our Meats"
+    title: "Our Meats",
     content: "Grassfed and full of flavor"
   },
   {
     title: "Our Location",
     content: "655 Blue Hill Ave, Boston MA"
-  }
-};
+  },
+];
 
 const App =  () => {
-  const []
   return (
     <h1>
-      <About />
+      <About info={info} />
   </h1>
 );
 };

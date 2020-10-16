@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const About = () => {
+const About = ({ info }) => {
+  const [page, setPage] = useState([0])
+
   return (
     <div className="container">
       <div className="ui form active">
